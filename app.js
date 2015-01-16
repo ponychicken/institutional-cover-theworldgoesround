@@ -22,5 +22,5 @@ if (typeof urlVars.subtitle !== 'undefined') {
   var coverSubtitle = 'Subtitle was not passed';
 }
 
-document.querySelector('h1').innerText = coverTitle;
-document.querySelector('h2').innerText = coverSubtitle;
+document.querySelector('h1').innerHTML = coverTitle;
+document.querySelector('h2').innerHTML = coverSubtitle;
